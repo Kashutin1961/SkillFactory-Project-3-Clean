@@ -1,0 +1,160 @@
+name: Conda_py3_12_2
+
+channels:
+  - pytorch
+  - nvidia
+  - anaconda
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Core Python & environment tools
+  - python=3.12.3
+  - pip=25.2
+  - setuptools
+  - wheel
+  - python_abi=3.12
+  - ca-certificates
+  - openssl
+
+  # Data manipulation & analysis
+  - pandas=2.2.3
+  - numpy
+  - scipy
+  - scikit-learn=1.7.2
+  - statsmodels
+  - seaborn
+  - matplotlib-base
+  - matplotlib-inline
+  - missingno
+  - xarray
+  - openpyxl
+  - xlrd
+
+  # NLP & text processing
+  - nltk
+  - textblob
+  - regex
+  - python-slugify
+  - beautifulsoup4
+  - html5lib
+  - lxml
+  - soupsieve
+
+  # Visualization & dashboards
+  - plotly
+  - dash
+  - dash-bootstrap-components
+  - dash-core-components
+  - dash-html-components
+  - dash-daq
+  - squarify
+  - wordcloud
+  - kaleido
+
+  # ML & GPU acceleration
+  - pytorch=2.5.1
+  - pytorch-cuda=12.1
+  - torchaudio
+  - torchvision
+  - xgboost
+  - lightgbm
+  - tensorflow=2.20.0
+  - keras
+  - tensorboard
+  - tensorboard-data-server
+
+  # Feature engineering & encoding
+  - category_encoders
+  - phik
+  - patsy
+
+  # Utility & system packages
+  - tqdm
+  - ipykernel
+  - ipython
+  - jupyter_client
+  - jupyter_core
+  - jupyterthemes
+  - traitlets
+  - nest-asyncio
+  - psutil
+  - pywin32
+  - pyzmq
+  - sqlite
+  - sqlalchemy
+  - flask
+  - flask-compress
+
+  # Geospatial & image processing
+  - pillow
+  - imagehash
+  - libpng
+  - libjpeg-turbo
+  - libtiff
+  - libwebp
+
+  # CUDA & GPU libraries (grouped for clarity)
+  - cuda-version=12.9
+  - cuda-runtime
+  - cuda-cudart
+  - cuda-cudart-dev
+  - cuda-libraries
+  - cuda-libraries-dev
+  - cuda-nvrtc
+  - cuda-nvrtc-dev
+  - cuda-nvtx
+  - cuda-cupti
+  - cuda-profiler-api
+  - libcublas
+  - libcublas-dev
+  - libcufft
+  - libcufft-dev
+  - libcurand
+  - libcurand-dev
+  - libcusolver
+  - libcusolver-dev
+  - libcusparse
+  - libcusparse-dev
+  - libnvjpeg
+  - libnvjpeg-dev
+  - libnvjitlink
+  - libnvjitlink-dev
+
+  # Optional extras
+  - kaggle
+  - dtale
+  - networkx
+  - python-louvain
+  - ipython_pygments_lexers
+  - jinja2
+  - joblib
+  - retrying
+  - markupsafe
+  - werkzeug
+
+  # Pip-only packages
+  - pip:
+      - comet-ml
+      - ydata-profiling
+      - huggingface-hub
+      - openai
+      - rich
+      - pyvis
+      - jsonschema
+      - pydantic
+      - pydantic-settings
+      - pytest
+      - selenium
+      - tiktoken
+      - tokenizers
+      - litellm
+      - uuid6
+      - python-dotenv
+      - requests-toolbelt
+      - websocket-client
+      - wrapt
+      - wurlitzer
+
+prefix: C:\Users\ekash\anaconda3\envs\Conda_py3_12_2
+
